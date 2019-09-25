@@ -4,8 +4,8 @@ main:
     url: /pages/challenge
   - title: About us
     url: /pages/aboutus
-  - title: Sample Posts
-    url: /pages/thefirstchallenge
+  - title: 1st challenge
+    url: /pages/firstchallenge
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
