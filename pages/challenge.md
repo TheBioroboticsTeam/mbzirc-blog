@@ -5,6 +5,10 @@ last_modified_at: 2017-10-20T12:42:38-04:00
 toc: true
 ---
 
+The Mohamed Bin Zayed International Robotics Challenge (MBZIRC) is an international robotics competition, held every two years in Abu Dhabi, with total prize and team sponsorship of USD 5 Million. MBZIRC aims to provide an ambitious, science-based, and technologically demanding set of challenges in Robotics, open to a large number of international teams.  It is intended to demonstrate the current state of the art in robotics in terms of scientific and technological accomplishments, and to inspire the future of robotics.  This has been the case for the MBZIRC SSSUP team, a group of 35 engineering students from Sant’Anna university, which, led by Stefano Roccella, researcher of the Livorno Laboratory of the Biorobotics Sant’Anna institute, will compete in Abu Dhabi in 2020
+
+#The Challenges
+
 MBZIRC 2020 will be based on autonomous aerial and ground robots, carrying out navigation and manipulation tasks, in unstructured, outdoor and indoor environments.  MBZIRC 2020 will consist of three challenges and a triathlon type Grand Challenge
 
 ## Challenge 1
