@@ -25,7 +25,7 @@ feature_row:
     btn_label: "Learn more"
   - image_path: /images/Indoortesting.jpg
     title: "Indoor Testing"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
+    excerpt: "The purpose of this section is to be able to easily test in the Real World the solutions provided by Control and Grasping."
     url: "/docs/license/"
     btn_class: "btn--primary"
     btn_label: "Learn more"      
