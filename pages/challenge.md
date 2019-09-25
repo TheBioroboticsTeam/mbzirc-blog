@@ -5,8 +5,6 @@ last_modified_at: 2017-10-20T12:42:38-04:00
 toc: true
 ---
 
-#THE CHALLENGES
-
 MBZIRC 2020 will be based on autonomous aerial and ground robots, carrying out navigation and manipulation tasks, in unstructured, outdoor and indoor environments.  MBZIRC 2020 will consist of three challenges and a triathlon type Grand Challenge
 
 ## Challenge 1

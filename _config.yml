@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "The Biorobotics team"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "The team of the Institute of the biorobotics"
+  bio              : "The team of the Institute of Biorobotics"
   location         : "Pisa"
   email            :
   links:
