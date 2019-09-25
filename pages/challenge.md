@@ -1,6 +1,6 @@
 ---
 permalink: /pages/challenge/
-title: The Challenges
+title: MBZIRC COMPETITION
 last_modified_at: 2017-10-20T12:42:38-04:00
 toc: true
 ---
