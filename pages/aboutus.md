@@ -16,9 +16,11 @@ We are competing with 3 drones. Two of them will carry out the obstacle avoidanc
 
 • The eventual capability to navigate in an unstructured, indoor environment in the case we want to use the same platform for the third challenge.
 
-### The Exacopters
 
-### The Quadcopters
+### • The Exacopters
+
+### • The Quadcopters
+
 <div align="center">
 <table>
 <tr><td> Frame </td><td> Tarot 650 Sport </td></tr>
@@ -30,6 +32,23 @@ We are competing with 3 drones. Two of them will carry out the obstacle avoidanc
 <tr><td> Fully loaded weight </td><td> 3 kg </td></tr>
 </table>
 </div>
+
+## Our Organization
+A  strong  organizational  effort  is  needed  to  make  such  a  group  of  engineers  with  different
+backgrounds and seniority work together efficiently.  We decided to tackle the Challenges by
+identifying 6 macro problems and dividing in groups.  The Divisions are:
+
+• Computer Vision Division
+
+•Components Design Division
+
+•Indoor Testing Division
+
+•Dynamics and Simulation Division
+
+•Control Division
+
+•AI Division
 
 
 
