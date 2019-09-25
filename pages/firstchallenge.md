@@ -17,9 +17,9 @@ The  organizers are  constantly  updating rules  and  requirements.  According  
 
 <figure align="center">
 	<img src="{{ '/images/1stch1.jpg' | relative_url }}">
-		<figcaption>
-		<p align="center"> The attachment system of the target </p>
-		</figcaption>
+	<figcaption>
+	The attachment system of the target 
+	</figcaption>
 </figure>
 
 • Tethered Balloons and randomly placed inside the arena:  The balloons will be attached to

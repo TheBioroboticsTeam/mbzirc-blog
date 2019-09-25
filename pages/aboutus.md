@@ -25,7 +25,7 @@ We are competing with 3 drones. Two of them will carry out the obstacle avoidanc
 <figure align="center">
 	<img src="{{ '/images/setup.png' | relative_url }}">
 		<figcaption>
-		<p align="center"> The quadcopter </p>
+	 	The quadcopter 
 		</figcaption>
 </figure>
 <table>
@@ -58,8 +58,8 @@ identifying 6 macro problems and dividing in groups.  The Divisions are:
 
 <figure align="center">
 	<img src="{{ '/images/organization.jpg' | relative_url }}">
-	<figcaption> <p align="center"> Organization chart
-	</p>
+	<figcaption> 
+	Organization chart
 	</figcaption>
 </figure>
 <br>
