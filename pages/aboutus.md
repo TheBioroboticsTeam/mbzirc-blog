@@ -52,7 +52,7 @@ identifying 6 macro problems and dividing in groups.  The Divisions are:
 • AI Division
 
 <div align="center">
-<img src="/images/organization.jpg">
+<img src="https://github.com/TheBioroboticsTeam/mbzirc-blog/images/organization.jpg">
 </div>
 
 We will further discuss the role of each division.
