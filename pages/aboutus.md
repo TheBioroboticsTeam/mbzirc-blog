@@ -19,21 +19,18 @@ We are competing with 3 drones. Two of them will carry out the obstacle avoidanc
 ### The Exacopters
 
 ### The Quadcopters
-\begin{center}
-\begin{tabular}{ |c|c| } 
- \hline
-Frame & Tarot 650 Sport \\
-Motors & Less than 10m/s \\
-Electronic Controller & Boh \\
-Low level Control & PixHawk  \\
-High level Control & Intel NUC i7 \\
-Unloaded weight & 2.6 kg \\
-Fully loaded weight & 3 kg \\
-.
+<div align="center">
+<table>
+<tr><td> Frame </td><td> Tarot 650 Sport </td></tr>
+<tr><td> Motors </td><td> Less than 10m/s </td></tr>
+<tr><td> Electronic Controller </td><td> Boh </td></tr>
+<tr><td> Low level Control </td><td> PixHawk  </td></tr>
+<tr><td> High level Control </td><td> Intel NUC i7 </td></tr>
+<tr><td> Unloaded weight </td><td> 2.6 kg </td></tr>
+<tr><td> Fully loaded weight </td><td> 3 kg </td></tr>
+</table>
+</div>
 
- \hline
-\end{tabular}
-\end{center}
 
 
 
