@@ -17,31 +17,31 @@ feature_row:
     url: "/pages/terms/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /images/gr5.png
+  - image_path: /images/index/grasping.png
     title: "Components Design"
     excerpt: "The purpose  of  this  division is designing each part of the drone correctly"
     url: "/pages/markup/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /images/Indoortesting.jpg
+  - image_path: /images/index/Indoortesting.jpg
     title: "Indoor Testing"
     excerpt: "The purpose of this section is to be able to easily test in the Real World the solutions provided by Control and Grasping."
     url: "/docs/license/"
     btn_class: "btn--primary"
     btn_label: "Learn more"      
-  - image_path: /images/simulation.png
+  - image_path: /images/index/simulation.png
     title: "Simulation"
     excerpt: "The purpose of this division is creating a framework to safely test control and computer vision algorithms, with obvious advantages with  respect to real world testing."
     url: "docs/_pages/terms/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /images/control.png
+  - image_path: /images/index/control.png
     title: "Navigation and Control"
     excerpt: "This division deals with the design and implementation of the control system and the navigation system of the quadcopter."
     url: "/markup/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /images/AI.png
+  - image_path: /images/index/AI.png
     title: "Artificial Intelligence"
     excerpt: "AI and Deep Learning are playing a pivotal role in many recent Robotics applications. This convinced us that it would be necessary to have a proper section for implementing such solutions for the challenge"
     url: "/docs/license/"
