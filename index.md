@@ -11,7 +11,7 @@ excerpt: >
   A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
   <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.16.6">Latest release v4.16.6</a></small>
 feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
+  - image_path: /images/index/computervision.jpg
     title: "Computer Vision"
     excerpt: The purpose of the computer vision section is to create the algorithms needed for the perception system on the drone to be able to correctly identify the target in an unstructured outdoor environment.
     url: "/pages/terms/"
@@ -47,13 +47,13 @@ feature_row:
     url: "/docs/license/"
     btn_class: "btn--primary"
     btn_label: "Learn more"      
-  - image_path: /assets/images/mm-responsive-feature.png
+  - image_path: /images/index/drone.jpg
     title: "Electronic"
     excerpt: "The Electronic Division is responsible for the design of the interface between the sensors and the high level controller"
     url: "/markup/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
+  - image_path: /images/index/drone.jpg
     title: "Vehycle Dynamics"
     excerpt: "The purpose of this division is studying the dynamic of our drone"
     url: "/docs/license/"
