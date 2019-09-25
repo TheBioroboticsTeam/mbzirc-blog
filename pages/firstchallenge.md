@@ -1,5 +1,5 @@
 ---
-permalink: /pages/challenge/
+permalink: /pages/firstchallenge/
 title: MBZIRC competition
 last_modified_at: 2017-10-20T12:42:38-04:00
 toc: true
@@ -23,31 +23,8 @@ In Challenge 2 a team of UAVs and a UGV will collaborate to autonomously locate,
 In Challenge 3 a team of UAVs and a UGV will collaborate to autonomously extinguish a series
 of simulated fires in an urban high rise building firefighting scenario.  Challenge 3 is motivated by the use of robots for urban firefighting, and requires the team of robots to collaborate to autonomously carry out a series of urban firefighting related tasks in an outdoor-indoor environment.
 
-
 ## Grand Challenge
 
 The Grand Challenge requires a team of robots (UAVs and UGVs) to compete in a triathlon type event that combines Challenges 1, 2 and 3.
 
-
-## State of the art review
-
-This is the second edition of the challenge.  The first edition was held in 2017 in Abu Dhabi.  The
-challenges consisted in three highly simplified version of the 2020 challenge, specifically:
-
-• The first challenge consisted in a drone which has to autonomously land on a terrestrial veichle with a platform moving in a 8 shaped trajectory on the ground.
-
-• The  second  challenge  consisted  in  a  cooperative  task  between  two  drones  and  a  terrestrial vehicle, which had to perform some object detection and complex interaction with the environment.
-
-• The third challenge consisted in the planning of a strategy to perform a cooperative task in a decentralized way.  Three drones had to cooperate to move objects to some specific area.
-
-• The grand challenge consists in the first three challenges performed together.
-
-
-The first challenge presents several similarities with the 2020 Challenge:  first of all it requires the autonomous control of a drone which has to perform a pursuit and evasion task, secondly it involves  the  use  of  a  computer  vision  algorithms  which  provides  info  to  a  control  algorithm  to perform the navigation.  It is indeed extremely important to review what has been done in these challenges, specifically:
-
-• Review of the hardware-software platforms
-
-• Review of the winning strategies and algorithms
-
-• Best practices and problems identification
 

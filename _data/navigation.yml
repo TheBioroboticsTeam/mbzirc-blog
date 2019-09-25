@@ -2,10 +2,10 @@
 main:
   - title: MBZIRC competition
     url: /pages/challenge
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  - title: About us
+    url: /pages/aboutus
+  - title: Sample Posts
+    url: /pages/thefirstchallenge
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
