@@ -22,7 +22,7 @@ feature_row:
     alt: "fully responsive"
     title: "Responsive layouts"
     excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/markup/"
+    url: "/pages/markup/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/mm-free-feature.png
