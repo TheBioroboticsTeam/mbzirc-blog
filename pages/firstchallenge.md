@@ -1,30 +1,21 @@
 ---
 permalink: /pages/firstchallenge/
-title: MBZIRC competition
+title: The 1st challenge
 last_modified_at: 2017-10-20T12:42:38-04:00
 toc: true
 ---
 
-The Mohamed Bin Zayed International Robotics Challenge (MBZIRC) is an international robotics competition, held every two years in Abu Dhabi, with total prize and team sponsorship of USD 5 Million. MBZIRC aims to provide an ambitious, science-based, and technologically demanding set of challenges in Robotics, open to a large number of international teams.  It is intended to demonstrate the current state of the art in robotics in terms of scientific and technological accomplishments, and to inspire the future of robotics.  This has been the case for the MBZIRC SSSUP team, a group of 35 engineering students from Sant’Anna university, which, led by Stefano Roccella, researcher of the Livorno Laboratory of the Biorobotics Sant’Anna institute, will compete in Abu Dhabi in 2020.
+The Biorobotics Institute of Sant’Anna, in collaboration with a team of students from Sant’Anna university is taking part in the first challenge.  A participation to other challenges is still under con- sideration and is strongly dependent on the progresses made on the first one and on the availability of hardware for the other challenges, specifically, the terrestrial vehicle with a robotic arm.
 
+## Rules and specification
 
-MBZIRC 2020 will be based on autonomous aerial and ground robots, carrying out navigation and manipulation tasks, in unstructured, outdoor and indoor environments.  MBZIRC 2020 will consist of three challenges and a triathlon type Grand Challenge.
+The  organizers are  constantly  updating rules  and  requirements.  According  to  the latest release, Challenge 1 arena will contain a set of target moving objects.  The targets will consist of:
 
-## Challenge 1
-In Challenge 1 a team of UAVs will autonomously track and interact with a set of objects (for example intruder UAVs) following 3D trajectories inside the arena.  Challenge 1 is motivated by UAV safety, where the team UAVs will attempt to capture and neutralize intruder UAVs inside the arena.
+• A UAV with a detachable target, following a 3D trajectory.  The approximate shape of the trajectory will be specified (e.g.  a figure of 8 shape, for the projection on the ground plane), but  its  location  and  orientation  will  be  randomized.   The  speed  of  the  UAV  will  be  held approximately constant, and will not exceed 10 m/sec.
 
+• The UAV will have a soft target attached to it by a semi-rigid tube and flexible joints.  The target will be of spherical shape of radius less than 0.15m, and a weight less than 0.15kg. The target will disengage from the UAV when a pre-specified force (less than 4N) is applied to it. The specifications of the soft target (including material and color), the semi-rigid tube and the UAV will be provided in due time.
 
-## Challenge 2
-In Challenge 2 a team of UAVs and a UGV will collaborate to autonomously locate,  pick, transport  and  assemble  different  types  of  brick  shaped  objects  to  build  pre-defined  structures, in an outdoor environment.  Challenge 2 is motivated by construction automation and autonomous robot based 3D printing of large structures.
-
-
-## Challenge 3
-
-In Challenge 3 a team of UAVs and a UGV will collaborate to autonomously extinguish a series
-of simulated fires in an urban high rise building firefighting scenario.  Challenge 3 is motivated by the use of robots for urban firefighting, and requires the team of robots to collaborate to autonomously carry out a series of urban firefighting related tasks in an outdoor-indoor environment.
-
-## Grand Challenge
-
-The Grand Challenge requires a team of robots (UAVs and UGVs) to compete in a triathlon type event that combines Challenges 1, 2 and 3.
-
-
+• Tethered Balloons and randomly placed inside the arena:  The balloons will be attached to
+ropes of varying lengths.  They will be randomly distributed inside the arena, and will move
+with the wind.  The colors, radii and other specifications of the balloons will be provided in
+due time.
