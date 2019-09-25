@@ -5,36 +5,26 @@ last_modified_at: 2017-10-20T12:42:38-04:00
 toc: true
 ---
 
-## Privacy Policy
+#THE CHALLENGES
 
-The privacy of my visitors is extremely important. This Privacy Policy outlines the types of personal information that is received and collected and how it is used.
+MBZIRC 2020 will be based on autonomous aerial and ground robots, carrying out navigation and manipulation tasks, in unstructured, outdoor and indoor environments.  MBZIRC 2020 will consist of three challenges and a triathlon type Grand Challenge
 
-First and foremost, I will never share your email address or any other personal information to anyone without your direct consent.
+## Challenge 1
+In Challenge 1 a team of UAVs will autonomously track and interact with a set of objects (for example intruder UAVs) following 3D trajectories inside the arena.  Challenge 1 is motivated by UAV safety, where the team UAVs will attempt to capture and neutralize intruder UAVs inside the arena.
 
-### Log Files
 
-Like many other websites, this site uses log files to help learn about when, from where, and how often traffic flows to this site. The information in these log files include:
+## Challenge 2
+In Challenge 2 a team of UAVs and a UGV will collaborate to autonomously locate,  pick, transport  and  assemble  different  types  of  brick  shaped  objects  to  build  pre-defined  structures, in an outdoor environment.  Challenge 2 is motivated by construction automation and autonomous robot based 3D printing of large structures.
 
-* Internet Protocol addresses (IP)
-* Types of browser
-* Internet Service Provider (ISP)
-* Date and time stamp
-* Referring and exit pages
-* Number of clicks
 
-All of this information is not linked to anything that is personally identifiable.
+## Challenge 3
 
-### Cookies and Web Beacons
+In Challenge 3 a team of UAVs and a UGV will collaborate to autonomously extinguish a series
+of simulated fires in an urban high rise building firefighting scenario.  Challenge 3 is motivated by the use of robots for urban firefighting, and requires the team of robots to collaborate to autonomously carry out a series of urban firefighting related tasks in an outdoor-indoor environment.
 
-When you visit this site "convenience" cookies are stored on your computer when you submit a comment to help you log in faster to [Disqus](http://disqus.com) the next time you leave a comment.
+## Grand Challenge
 
-Third-party advertisers may also place and read cookies on your browser and/or use web beacons to collect information. This site has no access or control over these cookies. You should review the respective privacy policies on any and all third-party ad servers for more information regarding their practices and how to opt-out.
-
-If you wish to disable cookies, you may do so through your web browser options. Instructions for doing so can be found on the specific web browsers' websites.
-
-#### Google Analytics
-
-Google Analytics is a web analytics tool I use to help understand how visitors engage with this website. It reports website trends using cookies and web beacons without identifying individual visitors. You can read [Google Analytics Privacy Policy](http://www.google.com/analytics/learn/privacy.html).
+The Grand Challenge requires a team of robots (UAVs and UGVs) to compete in a triathlon type event that combines Challenges 1, 2 and 3.
 
 #### Google Adsense
 
