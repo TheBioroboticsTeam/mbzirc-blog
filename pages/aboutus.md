@@ -22,7 +22,9 @@ We are competing with 3 drones. Two of them will carry out the obstacle avoidanc
 ### • The Quadcopters
 
 <div align="center">
+<figure align="center">
 <img src="{{ '/images/setup.png' | relative_url }}">
+</figure>
 <table>
 <tr><td> Frame </td><td> Tarot 650 Sport </td></tr>
 <tr><td> Motors </td><td> Less than 10m/s </td></tr>
@@ -51,9 +53,9 @@ identifying 6 macro problems and dividing in groups.  The Divisions are:
 
 • AI Division
 
-<div align="center">
+<figure align="center">
 <img src="{{ '/images/organization.jpg' | relative_url }}">
-</div>
+</figure>
 <br>
 We will further discuss the role of each division.
 
