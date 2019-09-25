@@ -29,19 +29,19 @@ feature_row:
     url: "/docs/license/"
     btn_class: "btn--primary"
     btn_label: "Learn more"      
-  - image_path: /assets/images/mm-customizable-feature.png
+  - image_path: /images/simulation.png
     title: "Simulation"
     excerpt: "The purpose of this division is creating a framework to safely test control and computer vision algorithms, with obvious advantages with  respect to real world testing."
     url: "docs/_pages/terms/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
+  - image_path: /images/control.png
     title: "Navigation and Control"
     excerpt: "This division deals with the design and implementation of the control system and the navigation system of the quadcopter."
     url: "/markup/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
+  - image_path: /images/AI.png
     title: "Artificial Intelligence"
     excerpt: "AI and Deep Learning are playing a pivotal role in many recent Robotics applications. This convinced us that it would be necessary to have a proper section for implementing such solutions for the challenge"
     url: "/docs/license/"
