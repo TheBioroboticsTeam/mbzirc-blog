@@ -50,11 +50,15 @@ identifying 6 macro problems and dividing in groups.  The Divisions are:
 
 • Indoor Testing Division
 
-• Dynamics and Simulation Division
+• Simulation Division
 
 • Control Division
 
 • AI Division
+
+• Electronic Division
+
+• Vehicle Dynamic Division
 
 <figure align="center">
 	<img src="{{ '/images/organization.jpg' | relative_url }}">

@@ -13,13 +13,13 @@ excerpt: >
 feature_row:
   - image_path: /assets/images/mm-customizable-feature.png
     title: "Computer Vision"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
+    excerpt: The purpose of the computer vision section is to create the algorithms needed for the perception system on the drone to be able to correctly identify the target in an unstructured outdoor environment.
     url: "/pages/terms/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/mm-responsive-feature.png
     title: "Components Design"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
+    excerpt: "The purpose  of  this  division is designing each part of the drone correctly"
     url: "/pages/markup/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
@@ -30,20 +30,32 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Learn more"      
   - image_path: /assets/images/mm-customizable-feature.png
-    title: "Dynamics and Simulation"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
+    title: "Simulation"
+    excerpt: "The purpose of this division is creating a framework to safely test control and computer vision algorithms, with obvious advantages with  respect to real world testing."
     url: "docs/_pages/terms/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/mm-responsive-feature.png
-    title: "Control"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
+    title: "Navigation and Control"
+    excerpt: "This division deals with the design and implementation of the control system and the navigation system of the quadcopter."
     url: "/markup/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/mm-free-feature.png
     title: "Artificial Intelligence"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
+    excerpt: "AI and Deep Learning are playing a pivotal role in many recent Robotics applications. This convinced us that it would be necessary to have a proper section for implementing such solutions for the challenge"
+    url: "/docs/license/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"      
+  - image_path: /assets/images/mm-responsive-feature.png
+    title: "Electronic"
+    excerpt: "The Electronic Division is responsible for the design of the interface between the sensors and the high level controller"
+    url: "/markup/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
+  - image_path: /assets/images/mm-free-feature.png
+    title: "Vehycle Dynamics"
+    excerpt: "The purpose of this division is studying the dynamic of our drone"
     url: "/docs/license/"
     btn_class: "btn--primary"
     btn_label: "Learn more"      
