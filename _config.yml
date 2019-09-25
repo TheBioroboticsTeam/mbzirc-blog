@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "The Biorobotics team"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/logo.png"
   bio              : "The team of the Institute of Biorobotics"
   location         : "Pisa"
   email            :
