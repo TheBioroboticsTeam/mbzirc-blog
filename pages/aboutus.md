@@ -1,6 +1,6 @@
 ---
 permalink: /pages/aboutus/
-title: MBZIRC competition
+title: ""
 last_modified_at: 2017-10-20T12:42:38-04:00
 toc: true
 ---
@@ -40,15 +40,15 @@ identifying 6 macro problems and dividing in groups.  The Divisions are:
 
 • Computer Vision Division
 
-•Components Design Division
+• Components Design Division
 
-•Indoor Testing Division
+• Indoor Testing Division
 
-•Dynamics and Simulation Division
+• Dynamics and Simulation Division
 
-•Control Division
+• Control Division
 
-•AI Division
+• AI Division
 
 
 
