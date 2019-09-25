@@ -17,13 +17,13 @@ feature_row:
     url: "/pages/terms/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
+  - image_path: /images/gr5.png
     title: "Components Design"
     excerpt: "The purpose  of  this  division is designing each part of the drone correctly"
     url: "/pages/markup/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
+  - image_path: /images/Indoortesting.jpg
     title: "Indoor Testing"
     excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
     url: "/docs/license/"
