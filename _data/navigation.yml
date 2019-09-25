@@ -1,7 +1,7 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://thebioroboticsteam.github.io/mbzirc-blog/pages/terms
+  - title: Challenges
+    url: /pages/challenge
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
