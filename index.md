@@ -32,7 +32,7 @@ feature_row:
   - image_path: /images/index/simulation.png
     title: "Simulation"
     excerpt: "The purpose of this division is creating a framework to safely test control and computer vision algorithms, with obvious advantages with  respect to real world testing."
-    url: "/pages/division/simulation/"
+    url: "/pages/division/simulation"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /images/index/control.png
