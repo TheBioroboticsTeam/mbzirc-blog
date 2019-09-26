@@ -1,28 +1,30 @@
 ---
 permalink: /pages/division/simulation
 title: Simulation division
-last_modified_at: 2017-10-20T12:42:38-04:00
+last_modified_at: 2019-09-26
 toc: true
 ---
 
-The Biorobotics Institute of Sant’Anna, in collaboration with a team of students from Sant’Anna university is taking part in the first challenge.  A participation to other challenges is still under con- sideration and is strongly dependent on the progresses made on the first one and on the availability of hardware for the other challenges, specifically, the terrestrial vehicle with a robotic arm.
+The  purpose of this division is creating a framework to safely test control and
+computer vision algorithms, with obvious advantages with respect to real world testing. In order to achieve this goal, we need to create interfaces between software, simulated hardware, and real hardware, to grant the smoothest transition from the simulation to the real world.
 
-## Rules and specification
+## The Simulation workflow
+We have chosen to work in ROS, using Gazebo as a full physics simulator for its native interface with ROS and Ardupilot. All the algorithms are implemented as ROS packages. This highly modular approach allowed us to work on different tasks and to integrate new functionalities effortlessly.
 
-The  organizers are  constantly  updating rules  and  requirements.  According  to  the latest release, Challenge 1 arena will contain a set of target moving objects.  The targets will consist of:
+## The low level flight Controller: Ardupilot
+Ardupilot possesses the most used DIY flight controller and was thus an obvious choice. Messages between the high level controller and the low level controller are exchanged with MAVlink, which is a very lightweight messaging protocol for communicating with drones (and between onboard drone components).
 
-• A UAV with a detachable target, following a 3D trajectory.  The approximate shape of the trajectory will be specified (e.g.  a figure of 8 shape, for the projection on the ground plane), but  its  location  and  orientation  will  be  randomized.   The  speed  of  the  UAV  will  be  held approximately constant, and will not exceed 10 m/sec.
+## The high level flight Controller: Intel NUC i7
+We chose to have this on-board computer to perform all the required autonomous tasks:  video acquisition, video processing, computer vision algorithm, control algorithm, navigation and planning. It will interface with the low level controller through MAVROS and MAVlink.
 
-• The UAV will have a soft target attached to it by a semi-rigid tube and flexible joints.  The target will be of spherical shape of radius less than 0.15m, and a weight less than 0.15kg. The target will disengage from the UAV when a pre-specified force (less than 4N) is applied to it. The specifications of the soft target (including material and color), the semi-rigid tube and the UAV will be provided in due time.
+## Setup the Simulation
+We have written a tutorial in order to correctly setup everything we needed for the  simulation, which is in order: Setup ROS melodic on Ubuntu 18.04, install gazebo, install Ardupilot, download our custom drone into the Ardupilot/Gazebo simulator, run the simulator, run the cv and control algorithm within the state machine
 
-<figure align="center">
-	<img src="{{ '/images/1stch1.jpg' | relative_url }}">
-	<figcaption>
-	The attachment system of the target 
-	</figcaption>
-</figure>
+## Gazebo Simulator
+Gazebo has been a choice of preference because of his excellent physical engine and simple interfaces: less than 2k lines of XML code are necessary to specify every parameter needed in the simulation. Once acknowledged the software is able to provide a very high quality simulation with little effort, we then proceeded to build the simulation environment. Starting from the already existing IRIS model, available on Gazebo’s official model database, we changed the SDF code of the model in order to add two rotors (the IRIS drone is a quadcopter) and to insert our own right inertias and
+motor  characteristics. After that, a visual rework has been done, in order to set  the drone to have the right appearances, making visual debugging much easier. Thanks  to a built-in gazebo plugin which communicates to ardupilot, we were able to control the simulated drone via MAVlink messages, thus creating the above-mentioned interface, since also the real model will be controlled in this way.  It must be noted that putting excessive focus into building a photorealistic scenario is not useful: given the wide availability of real videos, the purpose of simulation is not to train
+computer-vision  algorithms,  but  rather  to  use  them  (even  in  a  simplified  version), and once the position of the ball has been acquired, to proceed with the chasing and grasping.
 
-• Tethered Balloons and randomly placed inside the arena:  The balloons will be attached to
-ropes of varying lengths.  They will be randomly distributed inside the arena, and will move
-with the wind.  The colors, radii and other specifications of the balloons will be provided in
-due time.
+
+
+
