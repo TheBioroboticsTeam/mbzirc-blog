@@ -18,7 +18,7 @@ Ardupilot possesses the most used DIY flight controller and was thus an obvious 
 We chose to have this on-board computer to perform all the required autonomous tasks:  video acquisition, video processing, computer vision algorithm, control algorithm, navigation and planning. It will interface with the low level controller through MAVROS and MAVlink.
 
 ## Setup the Simulation
-We have written a tutorial in order to correctly setup everything we needed for the  simulation, which is in order: Setup ROS melodic on Ubuntu 18.04, install gazebo, install Ardupilot, download our custom drone into the Ardupilot/Gazebo simulator, run the simulator, run the cv and control algorithm within the state machine
+We have written a tutorial in order to correctly setup everything we needed for the  simulation, which is in order: Setup ROS melodic on Ubuntu 18.04, install gazebo, install Ardupilot, download our custom drone into the Ardupilot/Gazebo simulator, run the simulator, run the cv and control algorithm within the state machine.
 
 ## Gazebo Simulator
 Gazebo has been a choice of preference because of his excellent physical engine and simple interfaces: less than 2k lines of XML code are necessary to specify every parameter needed in the simulation. Once acknowledged the software is able to provide a very high quality simulation with little effort, we then proceeded to build the simulation environment. Starting from the already existing IRIS model, available on Gazebo’s official model database, we changed the SDF code of the model in order to add two rotors (the IRIS drone is a quadcopter) and to insert our own right inertias and
