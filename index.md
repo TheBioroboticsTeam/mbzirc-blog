@@ -4,12 +4,8 @@ permalink: /
 header:
   overlay_color: "#5e616c"
   overlay_image: /images/scuola-santanna-pisa.jpg
-  actions:
-    - label: "<i class='fas fa-download'></i> Install now"
-      url: "/docs/quick-start-guide/"
 excerpt: >
-  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
-  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.16.6">Latest release v4.16.6</a></small>
+  We are the BioRobotics Team, 35 students of Sant'anna University led by the Autonomous Drine Lab from the BioRobotics Institute <a href="https://www.santannapisa.it/it">Sant'Anna School of Advanced Studies</a>
 feature_row:
   - image_path: /images/index/computervision.jpg
     title: "Computer Vision"
