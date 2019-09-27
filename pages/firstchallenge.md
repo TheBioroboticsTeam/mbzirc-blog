@@ -28,5 +28,7 @@ with the wind.  The colors, radii and other specifications of the balloons will 
 due time.
 
 <figure align="center">
+	<a href="https://thebioroboticsteam.github.io/mbzirc-blog/images/1stchallenge/specification.png">
 	<img src="{{ '/images/1stchallenge/specification.png' | relative_url }}">
+	</a>
 </figure>
