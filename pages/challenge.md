@@ -16,22 +16,46 @@ In Challenge 1 a team of UAVs will autonomously track and interact with a set of
 <tr>
 <td>
 	<img src="{{ '/images/competition/ch1/ch1.jpg' | relative_url }}">
-	<figcaption>
+	<figcaption align="center">
 	ahah
 	</figcaption>
 </td>
 <td>
 	<img src="{{ '/images/competition/ch1/ch2.jpg' | relative_url }}">
-	<figcaption>
+	<figcaption align="center">
 	ahah
 	</figcaption>
 </td>
 </tr>
 </table>
+<p align="center"> Challenge 1 overview </p> 
 
 ## Challenge 2
 In Challenge 2 a team of UAVs and a UGV will collaborate to autonomously locate,  pick, transport  and  assemble  different  types  of  brick  shaped  objects  to  build  pre-defined  structures, in an outdoor environment.  Challenge 2 is motivated by construction automation and autonomous robot based 3D printing of large structures.
 
+<table>
+<tr>
+<td>
+	<img src="{{ '/images/competition/ch2/ch22.jpg' | relative_url }}">
+	<figcaption align="center">
+	ahah
+	</figcaption>
+</td>
+<td>
+	<img src="{{ '/images/competition/ch2/ch23.jpg' | relative_url }}">
+	<figcaption align="center">
+	ahah
+	</figcaption>
+</td>
+<td>
+	<img src="{{ '/images/competition/ch2/ch26.jpg' | relative_url }}">
+	<figcaption align="center">
+	ahah
+	</figcaption>
+</td>
+</tr>
+</table>
+<p align="center"> Challenge 2 overview </p> 
 
 ## Challenge 3
 
