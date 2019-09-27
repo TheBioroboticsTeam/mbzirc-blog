@@ -1,7 +1,7 @@
 ---
 permalink: /pages/division/artificialintelligence
 title: Artificial Intelligence division
-last_modified_at: 2017-10-20T12:42:38-04:00
+last_modified_at: 2019-09-27
 toc: true
 ---
 
