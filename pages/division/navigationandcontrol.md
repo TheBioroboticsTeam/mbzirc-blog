@@ -1,28 +1,31 @@
 ---
 permalink: /pages/division/navigationandcontrol
 title: Navigation and control
-last_modified_at: 2017-10-20T12:42:38-04:00
+last_modified_at: 2019-09-27
 toc: true
 ---
 
-The Biorobotics Institute of Sant’Anna, in collaboration with a team of students from Sant’Anna university is taking part in the first challenge.  A participation to other challenges is still under con- sideration and is strongly dependent on the progresses made on the first one and on the availability of hardware for the other challenges, specifically, the terrestrial vehicle with a robotic arm.
+This division deals with the design and implementation of the control system and the navigation system of the quadcopter. The control system has a front seat-backseat architecture where the Pixhawk flight controller represents the front seat and the Intel Nuc the backseat.  The back seat takes the target relative position from  the  CV  algorithm,  it  computes  a  optimal  trajectory  and  outputs  linear  and  angular  speed references rapresented in the body frame. These references are sent to the Pixhawk via Mavlink and translated in references for each motor. The software implemented in the flight controller is Arducopter an advanced open-source autopilot
+system for multicopters, helicopters, and other rotor vehicles which behaves like a PID. The high level controller was implemented in the back seat using ROS together with the Mavlink interface. For the navigation of the drone we are currently using the default Extended Kalman Filter implemented into the flight controller but we are planning to integrate it with the datas collected from both the camera and the other sensors.
 
-## Rules and specification
+## State Machine: SMACH
 
-The  organizers are  constantly  updating rules  and  requirements.  According  to  the latest release, Challenge 1 arena will contain a set of target moving objects.  The targets will consist of:
+In order to be able to complete autonomous tasks, we have distinguished the different states of the autonomous drone during the challenge.
 
-• A UAV with a detachable target, following a 3D trajectory.  The approximate shape of the trajectory will be specified (e.g.  a figure of 8 shape, for the projection on the ground plane), but  its  location  and  orientation  will  be  randomized.   The  speed  of  the  UAV  will  be  held approximately constant, and will not exceed 10 m/sec.
+• Takeoff
 
-• The UAV will have a soft target attached to it by a semi-rigid tube and flexible joints.  The target will be of spherical shape of radius less than 0.15m, and a weight less than 0.15kg. The target will disengage from the UAV when a pre-specified force (less than 4N) is applied to it. The specifications of the soft target (including material and color), the semi-rigid tube and the UAV will be provided in due time.
+• Target Search
 
-<figure align="center">
-	<img src="{{ '/images/1stch1.jpg' | relative_url }}">
-	<figcaption>
-	The attachment system of the target 
-	</figcaption>
-</figure>
+• Target Distant Approach
 
-• Tethered Balloons and randomly placed inside the arena:  The balloons will be attached to
-ropes of varying lengths.  They will be randomly distributed inside the arena, and will move
-with the wind.  The colors, radii and other specifications of the balloons will be provided in
-due time.
+• Target Close Approach
+
+• Target intercept
+
+• Steal Phase
+
+• Stabilization
+
+• Place and Land
+
+This is implemented as a State Machine in ROS, with the use of SMACH. SMACH is a task-level architecture for rapidly creating complex robot behavior. At its core, SMACH is a ROS-independent Python library to build hierarchical state machines.
