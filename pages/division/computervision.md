@@ -51,16 +51,16 @@ that were accidentally discarded when filtering.
 	<img src="{{ '/images/division/computervision/cv3.png' | relative_url }}">
 </figure>
 
-### •Background and foreground extraction:  The Grabcut algorithm
+### • Background and foreground extraction:  The Grabcut algorithm
 
 Within this box, on the basic of color values, we mark few points that belong for sure to  the background, as well as we tag some pixels that would be probably part of the body if the target is actually present. This information is exploited to segment the subfigure with the grabcut algorithm, which turns out to be fairly accurate in determining the exact pixels that make up the identified object.
 
-### •Background and foreground extraction:  Hu Moments
+### • Background and foreground extraction:  Hu Moments
 
 Then, by comparing the Hu moments of this object with the true target ones (precomputed before the experiment), it is possible to tell whether the entity is actually the target ball or something else. If more than one pseudo-circular object is found, we lock onto the most similar (in terms of shape) to the actual target. The distance between the drone and the target is estimated by the means of a simple proportion between the ball diameter (which is known) and its apparent size (in
 pixel).
 
-### •Target pose estimation
+### • Target pose estimation
 
 Similarly, the position is estimated as well.  Finally, the tracker is enabled and initialized with the
 position.
