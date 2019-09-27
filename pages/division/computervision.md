@@ -7,6 +7,13 @@ toc: true
 
 The purpose of the computer vision section is to create the algorithms needed for the perception system on the drone to be able to correctly identify the target in an unstructured outdoor environment. There are several challenges associated with the task, and several state of the art solutions have been proposed to tackle these difficulties. We will now proceed with a careful review of these aspects.
 
+<figure align="center">
+	<img src="{{ '/images/division/computervision/cv1.jpg' | relative_url }}">
+	<figcaption>
+	A mockup of the first challenge
+	</figcaption>
+</figure>
+
 ## The Arena
 
 It is extremely important to understand as many characteristics of the arena not to have unforeseen problems during the challenge.  The first challenge will take place in an outdoor open space, a field of approximately 80 x 50 x 40 meters, similar to a football field in size. The arena would probably consist in a parking spot.
@@ -19,6 +26,13 @@ We know that the target is a drone which will bring a 10-15cm (diameter) ball in
 Under the current setup, the drone equips a Mobius ActionCam as front camera, which enables the system to acquire frames with a 150 FOV at 1080p 30 fps.  Any captured image is either processed by a detector or a tracker, depending on the current state of the drone.
 The  detection  algorithm  keeps  running  on  newly  acquired  frames,  until  the  target  is  eventually found. When a successful detection occurs, the drone locks onto the target and switches to tracking mode. Taking into account the previous positions in the images, the tracker attempts to follow the object movements; if by chance the objective is lost, or the max number of consecutive frames (20 in our case) is reached, the drone switches back to detection mode.  All the experiments have been run on a red ball.  Red infact proved to be the most difficult color to detect as the sensitivity is lower and there is a lot of noise in the red frequency on the ground test where we run our tests.
 
+<figure align="center">
+	<img src="{{ '/images/division/computervision/cv2.png' | relative_url }}">
+	<figcaption>
+	The attachment system of the target 
+	</figcaption>
+</figure>
+
 ## The Detection Algorithm
 
 In order to detect the presence and position of the target in a given frame, we adopt a custom multi-stage algorithm, which exploits both classic and modern computer vision techniques.
@@ -28,6 +42,14 @@ In order to detect the presence and position of the target in a given frame, we 
 Firstly, the image is converted to HSV color representation, which makes it easier to subsequently extract areas having approximatively the same color of the ball.  The color thresholds are carefully tuned before the experiment,  since they strongly depend on the actual lighting conditions. It is advisable  to  calibrate  this  filter  to  be  quite  selective  to  exclude  false  positives,  even  if  this  may
 result  in  portions  of  the  target  body  being  filtered  out;  in  this  stage,  the  aim  is  just  to  locate some regions that may contain balls,  instead a more precise detection is locally performed later. Among the found regions, those whose area is below a certain threshold (few pixels) are classified as environmental noise, thus discarded; this might potentially exclude the target when it is really far, anyway it wouldn’t be reliable to detect any object from very few pixels. Out of the eligible portions, in order to limit the computational cost,  only the five largest ones are kept, under the assumption that the actual target,  if present,  is most likely contained in one of these. For each of them, the algorithm determines a region of interest (ROI) where to perform a new, thorough local search. Such ROI is a rectagular box, three times larger than the corresponding region and centered on it:  the purpose is to ensure that false negatives are included back, that is ”good” pixels
 that were accidentally discarded when filtering.
+
+<figure align="center">
+	<img src="{{ '/images/division/computervision/CVarchitecture.png' | relative_url }}">
+</figure>
+
+<figure align="center">
+	<img src="{{ '/images/division/computervision/cv3.png' | relative_url }}">
+</figure>
 
 ### •Background and foreground extraction:  The Grabcut algorithm
 

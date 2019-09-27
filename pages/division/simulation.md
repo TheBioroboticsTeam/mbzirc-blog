@@ -14,6 +14,13 @@ We have chosen to work in ROS, using Gazebo as a full physics simulator for its 
 ## The low level flight Controller: Ardupilot
 Ardupilot possesses the most used DIY flight controller and was thus an obvious choice. Messages between the high level controller and the low level controller are exchanged with MAVlink, which is a very lightweight messaging protocol for communicating with drones (and between onboard drone components).
 
+<figure align="center">
+	<img src="{{ '/images/division/simulation/Simulationworkflow.png' | relative_url }}">
+	<figcaption>
+	The attachment system of the target 
+	</figcaption>
+</figure>
+
 ## The high level flight Controller: Intel NUC i7
 We chose to have this on-board computer to perform all the required autonomous tasks:  video acquisition, video processing, computer vision algorithm, control algorithm, navigation and planning. It will interface with the low level controller through MAVROS and MAVlink.
 
