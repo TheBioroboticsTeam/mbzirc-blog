@@ -75,6 +75,7 @@ The Grand Challenge requires a team of robots (UAVs and UGVs) to compete in a tr
 <div align="center">
 	<img src="{{ '/images/competition/ch4/ch41.jpg' | relative_url }}">
 </div>
+<br>
 <p align="center"> The Grand challenge consists in all the three challenges together </p> 
 
 ## State of the art review
