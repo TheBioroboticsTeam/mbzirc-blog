@@ -16,9 +16,15 @@ In Challenge 1 a team of UAVs will autonomously track and interact with a set of
 <tr>
 <td>
 	<img src="{{ '/images/competition/ch1/ch1.jpg' | relative_url }}">
+	<figcaption> The target </figcaption>
 </td>
 <td>
 	<img src="{{ '/images/competition/ch1/ch2.jpg' | relative_url }}">
+	<figcaption> The search phase </figcaption>
+</td>
+<td>
+	<img src="{{ '/images/competition/ch1/ch2.jpg' | relative_url }}">
+	<figcaption> The approach phase </figcaption>
 </td>
 </tr>
 </table>
