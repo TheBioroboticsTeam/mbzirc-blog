@@ -23,7 +23,7 @@ In Challenge 1 a team of UAVs will autonomously track and interact with a set of
 	<figcaption> The search phase </figcaption>
 </td>
 <td>
-	<img src="{{ '/images/competition/ch1/ch2.jpg' | relative_url }}">
+	<img src="{{ '/images/competition/ch1/ch3.jpg' | relative_url }}">
 	<figcaption> The approach phase </figcaption>
 </td>
 </tr>
@@ -59,7 +59,7 @@ of simulated fires in an urban high rise building firefighting scenario.  Challe
 	<img src="{{ '/images/competition/ch3/ch31.jpg' | relative_url }}">
 </td>
 <td>
-	<img src="{{ '/images/competition/ch3/ch32.jpg' | relative_url }}">
+	<img src="{{ '/images/competition/ch3/ch33.jpg' | relative_url }}">
 </td>
 <td>
 	<img src="{{ '/images/competition/ch3/ch35.jpg' | relative_url }}">
@@ -72,13 +72,9 @@ of simulated fires in an urban high rise building firefighting scenario.  Challe
 
 The Grand Challenge requires a team of robots (UAVs and UGVs) to compete in a triathlon type event that combines Challenges 1, 2 and 3.
 
-<table>
-<tr>
-<td>
+<div align="center">
 	<img src="{{ '/images/competition/ch4/ch41.jpg' | relative_url }}">
-</td>
-</tr>
-</table>
+</div>
 <p align="center"> The Grand challenge consists in all the three challenges together </p> 
 
 ## State of the art review
