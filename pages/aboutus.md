@@ -61,7 +61,9 @@ identifying 6 macro problems and dividing in groups.  The Divisions are:
 • Vehicle Dynamic Division
 
 <figure align="center">
+	<a href="https://thebioroboticsteam.github.io/mbzirc-blog/images/oursetup/organization.jpg">
 	<img src="{{ '/images/oursetup/organization.jpg' | relative_url }}">
+	</a>
 	<figcaption> 
 	Organization chart
 	</figcaption>
