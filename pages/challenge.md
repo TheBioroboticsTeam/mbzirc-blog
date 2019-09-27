@@ -53,11 +53,33 @@ In Challenge 2 a team of UAVs and a UGV will collaborate to autonomously locate,
 In Challenge 3 a team of UAVs and a UGV will collaborate to autonomously extinguish a series
 of simulated fires in an urban high rise building firefighting scenario.  Challenge 3 is motivated by the use of robots for urban firefighting, and requires the team of robots to collaborate to autonomously carry out a series of urban firefighting related tasks in an outdoor-indoor environment.
 
+<table>
+<tr>
+<td>
+	<img src="{{ '/images/competition/ch3/ch31.jpg' | relative_url }}">
+</td>
+<td>
+	<img src="{{ '/images/competition/ch3/ch32.jpg' | relative_url }}">
+</td>
+<td>
+	<img src="{{ '/images/competition/ch3/ch35.jpg' | relative_url }}">
+</td>
+</tr>
+</table>
+<p align="center"> Challenge 3 overview </p> 
 
 ## Grand Challenge
 
 The Grand Challenge requires a team of robots (UAVs and UGVs) to compete in a triathlon type event that combines Challenges 1, 2 and 3.
 
+<table>
+<tr>
+<td>
+	<img src="{{ '/images/competition/ch4/ch41.jpg' | relative_url }}">
+</td>
+</tr>
+</table>
+<p align="center"> The Grand challenge consists in all the three challenges together </p> 
 
 ## State of the art review
 
