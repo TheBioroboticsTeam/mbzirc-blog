@@ -37,7 +37,7 @@ The  detection  algorithm  keeps  running  on  newly  acquired  frames,  until  
 
 In order to detect the presence and position of the target in a given frame, we adopt a custom multi-stage algorithm, which exploits both classic and modern computer vision techniques.
 
-### •HSV Representation and filtering
+### • HSV Representation and filtering
 
 Firstly, the image is converted to HSV color representation, which makes it easier to subsequently extract areas having approximatively the same color of the ball.  The color thresholds are carefully tuned before the experiment,  since they strongly depend on the actual lighting conditions. It is advisable  to  calibrate  this  filter  to  be  quite  selective  to  exclude  false  positives,  even  if  this  may
 result  in  portions  of  the  target  body  being  filtered  out;  in  this  stage,  the  aim  is  just  to  locate some regions that may contain balls,  instead a more precise detection is locally performed later. Among the found regions, those whose area is below a certain threshold (few pixels) are classified as environmental noise, thus discarded; this might potentially exclude the target when it is really far, anyway it wouldn’t be reliable to detect any object from very few pixels. Out of the eligible portions, in order to limit the computational cost,  only the five largest ones are kept, under the assumption that the actual target,  if present,  is most likely contained in one of these. For each of them, the algorithm determines a region of interest (ROI) where to perform a new, thorough local search. Such ROI is a rectagular box, three times larger than the corresponding region and centered on it:  the purpose is to ensure that false negatives are included back, that is ”good” pixels
