@@ -3,9 +3,9 @@ layout: splash
 permalink: /
 header:
   overlay_color: "#5e616c"
-  overlay_image: /images/scuola-santanna-pisa.jpg
+  overlay_image: /images/index/scuola-santanna-pisa.jpg
 excerpt: >
-  We are the BioRobotics Team, 35 students of Sant'anna University led by the Autonomous Drine Lab from the BioRobotics Institute <a href="https://www.santannapisa.it/it">Sant'Anna School of Advanced Studies</a>
+  We are the BioRobotics Team, 35 students of Sant'anna University led by the Autonomous Drone Lab from the BioRobotics Institute <a href="https://www.santannapisa.it/it">Sant'Anna School of Advanced Studies</a>
 feature_row:
   - image_path: /images/index/computervision.jpg
     title: "Computer Vision"

@@ -1,7 +1,7 @@
 ---
 permalink: /pages/aboutus/
 title: ""
-last_modified_at: 2017-10-20T12:42:38-04:00
+last_modified_at: 2019-09-27
 toc: true
 ---
 
@@ -23,7 +23,7 @@ We are competing with 3 drones. Two of them will carry out the obstacle avoidanc
 
 <div align="center">
 <figure align="center">
-	<img src="{{ '/images/setup.png' | relative_url }}">
+	<img src="{{ '/images/oursetup/setup.png' | relative_url }}">
 		<figcaption>
 	 	The quadcopter 
 		</figcaption>
@@ -61,7 +61,7 @@ identifying 6 macro problems and dividing in groups.  The Divisions are:
 • Vehicle Dynamic Division
 
 <figure align="center">
-	<img src="{{ '/images/organization.jpg' | relative_url }}">
+	<img src="{{ '/images/oursetup/organization.jpg' | relative_url }}">
 	<figcaption> 
 	Organization chart
 	</figcaption>
