@@ -20,12 +20,13 @@ In Challenge 1 a team of UAVs will autonomously track and interact with a set of
 	ahah
 	</figcaption>
 </td>
-<tr>
+<td>
 	<img src="{{ '/images/competition/ch1/ch2.jpg' | relative_url }}">
 	<figcaption>
 	ahah
 	</figcaption>
 </td>
+</tr>
 </table>
 
 ## Challenge 2
