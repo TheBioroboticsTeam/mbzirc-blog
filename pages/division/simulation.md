@@ -17,7 +17,7 @@ Ardupilot possesses the most used DIY flight controller and was thus an obvious 
 <figure align="center">
 	<img src="{{ '/images/division/simulation/Simulationworkflow.png' | relative_url }}">
 	<figcaption>
-	The attachment system of the target 
+	Software involved in the simulation 
 	</figcaption>
 </figure>
 
