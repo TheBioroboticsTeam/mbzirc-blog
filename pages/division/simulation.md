@@ -11,15 +11,14 @@ computer vision algorithms, with obvious advantages with respect to real world t
 ## The Simulation workflow
 We have chosen to work in ROS, using Gazebo as a full physics simulator for its native interface with ROS and Ardupilot. All the algorithms are implemented as ROS packages. This highly modular approach allowed us to work on different tasks and to integrate new functionalities effortlessly.
 
-<a href="https://thebioroboticsteam.github.io/mbzirc-blog/images/division/simulation/Simulationworkflow.png">
 <figure align="center">
+	<a href="https://thebioroboticsteam.github.io/mbzirc-blog/images/division/simulation/Simulationworkflow.png">
 	<img src="{{ '/images/division/simulation/Simulationworkflow.png' | relative_url }}">
+	</a>
 	<figcaption>
 	Software involved in the simulation 
 	</figcaption>
 </figure>
-</a>
-
 
 ## The low level flight Controller: Ardupilot
 Ardupilot possesses the most used DIY flight controller and was thus an obvious choice. Messages between the high level controller and the low level controller are exchanged with MAVlink, which is a very lightweight messaging protocol for communicating with drones (and between onboard drone components).
