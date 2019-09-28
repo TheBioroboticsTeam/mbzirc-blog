@@ -28,6 +28,7 @@ feature_row:
   - image_path: /images/index/simulation.png
     title: "Simulation"
     excerpt: "Simulation in ROS and Gazebo to provide a safe testing environment for control algorithms"
+    url: "/pages/division/simulation"
     btn_class: "btn--primary"
     btn_label: "Learn more"      
   - image_path: /images/index/control.png

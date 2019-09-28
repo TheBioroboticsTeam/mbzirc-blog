@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Official Blog of the Biorobotics Team"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
+name                     : "The Biorobotics Team"
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
