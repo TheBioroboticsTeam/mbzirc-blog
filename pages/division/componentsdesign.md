@@ -21,13 +21,22 @@ the gripper and the battery by opportune value as we can see in the following im
 <table>
 <tr>
 <td>
-	<img src="{{ '/images/competition/ch2/ch22.jpg' | relative_url }}">
+	<img src="{{ '/images/division/componentsdesign/gr1.png' | relative_url }}">
+	<figcaption>
+	The gripper in its closed configuration
+	</figcaption>	
 </td>
 <td>
-	<img src="{{ '/images/competition/ch2/ch23.jpg' | relative_url }}">
+	<img src="{{ '/images/division/componentsdesign/grapA.png' | relative_url }}">
+	<figcaption>
+	The gripper in its open configuration
+	</figcaption>	
 </td>
 <td>
-	<img src="{{ '/images/competition/ch2/ch26.jpg' | relative_url }}">
+	<img src="{{ '/images/division/componentsdesign/retarc.png' | relative_url }}">
+	<figcaption>
+	The retractable mechanism
+	</figcaption>	
 </td>
 </tr>
 </table>
@@ -35,7 +44,7 @@ the gripper and the battery by opportune value as we can see in the following im
 In the 3d printed gripper we also would like to implement a bio-inspired passive ”fingertip” which grants more grip and allows for less precision during the approach phase.
 In the following video we can see the complete 3d model of the drone realised with solidworks.
 
-<video controls>
+<video width="600" height="400" controls>
     <source src="{{ '/images/division/componentsdesign/model.mp4' | relative_url }}" type="video/mp4">
 </video>
 
