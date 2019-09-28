@@ -29,7 +29,7 @@ feature_row:
     title: "Simulation"
     excerpt: "Simulation in ROS and Gazebo to provide a safe testing environment for control algorithms"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
+    btn_label: "Learn more"      
   - image_path: /images/index/control.png
     title: "Navigation and Control"
     excerpt: "The core of the challenge: a game of pursuit and evasion for the drone target system"
