@@ -1,28 +1,47 @@
 ---
 permalink: /pages/division/componentsdesign
 title: Components design division
-last_modified_at: 2017-10-20T12:42:38-04:00
+last_modified_at: 2019-09-28
 toc: true
 ---
 
-The Biorobotics Institute of Sant’Anna, in collaboration with a team of students from Sant’Anna university is taking part in the first challenge.  A participation to other challenges is still under con- sideration and is strongly dependent on the progresses made on the first one and on the availability of hardware for the other challenges, specifically, the terrestrial vehicle with a robotic arm.
+The whole purpose of the first challenge is to be ablemto correctly grasp the target ball and steal it from the Drone.  This highlight the critical role played by the grasping system during the challenge. The design process of the manipulation system determines how we approach, control, and stabilize he drone during the ”steal” phase.  The goal is to provide the control division with a basic but fully functional model which will be used in the first trials,but by the actual competition, there are other ideas with a lot of potential.  We will further discuss such solutions later.
 
-## Rules and specification
+## Requirements for the gripper
 
-The  organizers are  constantly  updating rules  and  requirements.  According  to  the latest release, Challenge 1 arena will contain a set of target moving objects.  The targets will consist of:
+## 3D printed solution
 
-• A UAV with a detachable target, following a 3D trajectory.  The approximate shape of the trajectory will be specified (e.g.  a figure of 8 shape, for the projection on the ground plane), but  its  location  and  orientation  will  be  randomized.   The  speed  of  the  UAV  will  be  held approximately constant, and will not exceed 10 m/sec.
+Our gripper will be 3D printed based on the CAD design proposed in the following images.  It has
+1 degree of freedom and it is easily actuated by an electric motor.
+<br>
+We’ve also designed a retractable mechanism to be able to reposition the center of gravity of
+the drone in the same place as it was before the taking the soft baloon, achieved by replacing both
+the gripper and the battery by opportune value as we can see in the following image.
 
-• The UAV will have a soft target attached to it by a semi-rigid tube and flexible joints.  The target will be of spherical shape of radius less than 0.15m, and a weight less than 0.15kg. The target will disengage from the UAV when a pre-specified force (less than 4N) is applied to it. The specifications of the soft target (including material and color), the semi-rigid tube and the UAV will be provided in due time.
+<table>
+<tr>
+<td>
+	<img src="{{ '/images/competition/ch2/ch22.jpg' | relative_url }}">
+</td>
+<td>
+	<img src="{{ '/images/competition/ch2/ch23.jpg' | relative_url }}">
+</td>
+<td>
+	<img src="{{ '/images/competition/ch2/ch26.jpg' | relative_url }}">
+</td>
+</tr>
+</table>
 
-<figure align="center">
-	<img src="{{ '/images/1stch1.jpg' | relative_url }}">
-	<figcaption>
-	The attachment system of the target 
-	</figcaption>
-</figure>
+In the 3d printed gripper we also would like to implement a bio-inspired passive ”fingertip” which grants more grip and allows for less precision during the approach phase.
+In the following video we can see the complete 3d model of the drone realised with solidworks.
 
-• Tethered Balloons and randomly placed inside the arena:  The balloons will be attached to
-ropes of varying lengths.  They will be randomly distributed inside the arena, and will move
-with the wind.  The colors, radii and other specifications of the balloons will be provided in
-due time.
+<video controls>
+    <source src="{{ '/images/division/componentsdesign/model.mp4' | relative_url }}" type="video/mp4">
+</video>
+
+## Soft Gripper
+
+We are evaluating the implementation of an innovative passive-soft gripper based on bistable mech-
+anisms and highly friction materials. That’s what we would like to design in the long term but it’s really complicated and we cannot assure we’re going to be able to do it.
+
+
