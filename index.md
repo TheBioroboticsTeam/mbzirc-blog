@@ -9,7 +9,7 @@ excerpt: >
 feature_row:
   - image_path: /images/index/computervision.jpg
     title: "Computer Vision"
-    excerpt: The purpose of the computer vision section is to create the algorithms needed for the perception system on the drone to be able to correctly identify the target in an unstructured outdoor environment.
+    excerpt: "Detection and Tracking algorithm for the identification of the target"
     url: "/pages/division/computervision"
     btn_class: "btn--primary"
     btn_label: "Learn more"
@@ -21,25 +21,24 @@ feature_row:
     btn_label: "Learn more"
   - image_path: /images/index/Indoortesting.jpg
     title: "Indoor Testing"
-    excerpt: "The purpose of this section is to be able to easily test in the Real World the solutions provided by Control and Grasping."
+    excerpt: "The real testing ground for computer vision and control algorithms: the real world"
     url: "/pages/division/indoortesting"
     btn_class: "btn--primary"
     btn_label: "Learn more"      
   - image_path: /images/index/simulation.png
     title: "Simulation"
-    excerpt: "The purpose of this division is creating a framework to safely test control and computer vision algorithms, with obvious advantages with  respect to real world testing."
-    url: "/pages/division/simulation"
+    excerpt: "Simulation in ROS and Gazebo to provide a safe testing environment for control algorithms"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /images/index/control.png
     title: "Navigation and Control"
-    excerpt: "This division deals with the design and implementation of the control system and the navigation system of the quadcopter."
+    excerpt: "The core of the challenge: a game of pursuit and evasion for the drone target system"
     url: "/pages/division/navigationandcontrol"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /images/index/AI.png
     title: "Artificial Intelligence"
-    excerpt: "AI and Deep Learning are playing a pivotal role in many recent Robotics applications. This convinced us that it would be necessary to have a proper section for implementing such solutions for the challenge"
+    excerpt: "AI and Deep Learning solutions for robotics application: Control and Computer Vision"
     url: "/pages/division/artificialintelligence"
     btn_class: "btn--primary"
     btn_label: "Learn more"      
