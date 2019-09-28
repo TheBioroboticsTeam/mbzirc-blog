@@ -43,6 +43,7 @@ the gripper and the battery by opportune value as we can see in the following im
 </table>
 
 In the 3d printed gripper we also would like to implement a bio-inspired passive ”fingertip” which grants more grip and allows for less precision during the approach phase.
+<br>
 In the following video we can see the complete 3d model of the drone realised with solidworks.
 
 <video width="600" height="400" controls>
