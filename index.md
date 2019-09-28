@@ -44,7 +44,7 @@ feature_row:
     btn_label: "Learn more"      
   - image_path: /images/index/drone.jpg
     title: "Electronic"
-    excerpt: "The Electronic Division is responsible for the design of the interface between the sensors and the high level controller"
+    excerpt: "The design of the interface between the sensors and the high level controller"
     url: "/pages/division/electronic"
     btn_class: "btn--primary"
     btn_label: "Learn more"
