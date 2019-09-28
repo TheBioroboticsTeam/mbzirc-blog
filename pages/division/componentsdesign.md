@@ -33,7 +33,7 @@ the gripper and the battery by opportune value as we can see in the following im
 	</figcaption>	
 </td>
 <td>
-	<img src="{{ '/images/division/componentsdesign/retarc.png' | relative_url }}">
+	<img src="{{ '/images/division/componentsdesign/retrac.png' | relative_url }}">
 	<figcaption>
 	The retractable mechanism
 	</figcaption>	
